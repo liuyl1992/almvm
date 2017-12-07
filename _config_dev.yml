@@ -1,4 +1,4 @@
-repository: Microsoft/ALMVM
+repository: Lean-Soft/ALMVM
 
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
@@ -12,11 +12,11 @@ site_title: Microsoft Visual Studio ALM Virtual Machine
 company_name: Microsoft
 # this appears in the footer
 
-github_editme_path: Microsoft/ALMVM
+github_editme_path: Lean-Soft/ALMVM
 
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
-disqus_shortname: almvm
+disqus_shortname: almvm-cn
 # if you're using disqus for comments, add the shortname here. if not, leave this value blank.
 
 
