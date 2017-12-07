@@ -11,41 +11,44 @@ summary:
  <!--<img src="http://vsalmvm.azurewebsites.net/wp-content/uploads/2015/09/ALM-VM-banner-0915.png" width="760" height="177" />-->
 
 <br>
-<span class="introText">
-微软 ALM/DevOps 动手实验 是一系列的练习和实验，这其中包括了丰富内容，通过这些文档、实验和练习，可以让我们体验 Microsoft Visual Studio Team Foundation Server/Visual Studio Team Services 在 ALM/DevOps 方面提供的能力，使得我们能更好的利用微软的工具改善我们的交付流程，使我们的企业更具竞争力。 
+<span class="introText-remove">
+
+#### 微软 ALM/DevOps 动手实验 是一系列的练习和实验，这其中包括了丰富内容，通过这些文档、实验和练习，可以让我们体验 Microsoft Visual Studio Team Foundation Server/Visual Studio Team Services 在 ALM/DevOps 方面提供的能力，使得我们能更好的利用微软的工具改善我们的交付流程，使我们的企业更具竞争力。 
+
 </span>
-<br />
-<br />
- 
+<br /> 
 <div class="row">
     <div class="lab-item col-md-4" align="center">
           <span class="headnews"> <b> <a href="labs/tfs" class="labmain">Visual Studio & Team Foundation Server Labs</a></b></span><br />
              <a href="labs/tfs"><img style="margin: 10px;" src="images/vside.png"/></a><br />
            <!--span class="mainPageText"> Access the Microsoft ALM VM and TFS Hands-on-Labs</span><br /><br /-->
-           <a href="labs/tfs" class="c-glyph"><span class="lab-details">View Details</span></a>
+           <a href="labs/tfs" class="c-glyph"><span class="lab-details">开始练习</span></a>
     </div>
     <div class="lab-item col-md-4" align="center">
          <span class="headnews"> <b><a href="labs/vsts" class="labmain"> Visual Studio Team Services Labs</a></b></span><br /><br />
         <a href="labs/vsts"><img style="margin: 10px;" src="images/vstslogo.png"/></a><br />
        <!--span class="mainPageText"> Follow the Visual Studio Team Services Hands-on-Labs</span><br /><br /-->
-       <a href="labs/vsts" class="c-glyph"><span class="lab-details">View Details</span></a>
+       <a href="labs/vsts" class="c-glyph"><span class="lab-details">开始练习</span></a>
     </div>
      <div class="lab-item col-md-4" align="center">
          <span class="headnews"> <b><a href="labs/java" class="labmain"> DevOps with Visual Studio Team Services for Java Labs</a></b></span><br />
         <a href="labs/java"><img style="margin: 10px;" src="images/java.png"/></a><br />
        <!--span class="mainPageText"> DevOps with Visual Studio Team Services for Java</span><br /><br /-->
-       <a href="labs/java" class="c-glyph"><span class="lab-details">View Details</span></a>
+       <a href="labs/java" class="c-glyph"><span class="lab-details">开始练习</span></a>
     </div>
 </div>
  
- <div class="clear"></div>
+<div class="clear"></div>
+
+<div class="col-md-9">
 
 ## Visual Studio Team Services Demo Generator 概述
-Visual Studio Team Services Demo Generator 帮助我们在Visual Studio Team Services 帐户上创建项目，该项目内置的示例内容包括源代码、工作项、服务端点、所选模板的构建和发布定义 
+
+#### Visual Studio Team Services DemoGenerator 帮助我们在Visual Studio Team Services 帐户上创建项目，该项目内置示例内容包括源代码、工作项、服务端点、构建和发布定义.
 
 此工具用于帮助Visual Studio 市场团队创建基于VSTS的实验、演示、和教育所需的资源
 
-准备工作:
+#### 准备工作:
 
 - 一个微软live帐号 - 如果还没有，可以现在 
 <a href="https://signup.live.com">创建</a> 一个
@@ -91,9 +94,10 @@ Visual Studio Team Services Demo Generator 帮助我们在Visual Studio Team Ser
 
 >**注:** 你需要为创建的端点提供您自己的信息，如url、用户名、密码等。在尝试使用它们之前，需要提供它们，比如在构建版本中、发布定义中
 
+</div>
 <br />
 
- <h2> 最近发表 </h2>
+ <h2> 最近发表文章 </h2>
  {% for post in site.posts limit:10 %}
 <div class="headline">
 
