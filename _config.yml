@@ -3,10 +3,10 @@ repository: Lean-Soft/ALMVM
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title:  Microsoft Visual Studio
+topnav_title:  微软研发云动手实验
 # this appears on the top navigation bar next to the home button
 
-site_title: Microsoft Visual Studio ALM Virtual Machine
+site_title: 微软研发云动手实验
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: Microsoft
